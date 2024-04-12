@@ -26,6 +26,7 @@ https://www.loom.com/share/3032961693db4babb83e91e36c1b3673?sid=2eb5ce9e-e19a-40
 ## Notes
 
 Describe any challenges encountered while building the app.
+
 Implementing Supabase for data handling posed initial hurdles due to its setup and querying methods. Building multiple pages with React Router necessitated meticulous routing setup and state management. Additionally, ensuring consistent UI design and error handling across pages demanded careful planning and CSS styling.
 
 ## License
