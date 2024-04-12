@@ -1,0 +1,96 @@
+.gallery-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery-container h2 {
+  color: #fff; /* Change the text color to white */
+}
+
+.gallery-container .empty-message p {
+  margin-bottom: 10px;
+  color: #fff; /* Text color for the paragraph */
+}
+
+.crewmate-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.crewmate-card {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.crewmate-card h3 {
+  margin-bottom: 10px;
+}
+
+.crewmate-card p {
+  margin: 0;
+}
+
+.edit-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #ff4500; /* Orange button color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #e04000; /* Darker orange on hover */
+}
+
+.view-info-button {
+  padding: 10px 20px;
+  background-color: #4caf50; /* Green button color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.view-info-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.empty-message {
+  margin-top: 20px;
+  color: #fff; /* Text color for empty message */
+}
+
+.empty-message p {
+  margin-bottom: 10px;
+}
+
+.empty-message button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue button color */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.empty-message button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+.page-description {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.page-description h1 {
+  font-weight: bold;
+  color: #007bff; /* Blue color */
+}
